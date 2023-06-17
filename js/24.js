@@ -1,6 +1,3 @@
-
-
-
 //   VARIABLES AND CONSTS
 let input = document.querySelector(".input")
 let word = document.querySelector(".word")
@@ -53,7 +50,6 @@ function RANDOM() {
     word.textContent = words[random]
 }
 
-
 function TIME_DOWN() {
 
     if (time > 0) {
@@ -90,7 +86,6 @@ function input_Sensor() {
     }
     M_Score.textContent = Score;
 }
-
 
 // FUNCTION CALLING
 function init() {
